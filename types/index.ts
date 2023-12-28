@@ -11,8 +11,8 @@ export interface CustomButtonProps {
 }
 
 export interface SearchManufacturerProps {
-    manufacturer: string;
-    setManufacturer: (manufacturer: string) => void;
+    selected: string;
+    setSelected: (manufacturer: string) => void;
 }
 
 export interface CarProps {
@@ -26,7 +26,7 @@ export interface CarProps {
     highway_mpg: number;
     make: string;
     model: string;
-    transmission: string; 
+    transmission: string;
     year: number;
 }
 
